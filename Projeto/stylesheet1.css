@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bg {
+    background-image: url(Logo.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#menuh ul{
+    margin: 0 auto;    
+    color: #fff;
+    list-style: none;
+    height: 70px;    
+    background-color: #fff;
+    font-size: 20px;
+    margin-top: -10px;    
+    margin-left: -7px;        
+}
+
+#menuh ul li  {
+    display: inline;
+    margin-left: 180px;
+    transition: all 0.4s ease-in-out;
+}
+
+#menuh ul li a {
+    color: rgb(75, 72, 72);
+    text-decoration: none;
+    padding: 13px;
+    display: inline-block;
+    float: right;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+#menuh ul li a:hover {
+    color: green;
+    transition: background-color .5s;
+}
+
+.nav ul li a.active {
+    border-top: 2px;
+}
+
+.txt1 {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 38px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.txt2 {
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 27px;
+}
+
+.fotomenu {
+    position: absolute;
+    top: 7px;
+    width: 80px;
+    height: 50px;
+    margin-left: 25px;    
+}
+
+.ho  {
+    border-top: 3px solid green;
+}
+
+.menu1 {
+    border: 1px solid darkgreen;
+    margin-top: 80px;
+    width: 250px;
+    height: 230px;
+    margin-left: 180px;
+}
+
+.menuu1 {
+    color: #fff;
+    text-align: center;
+    margin-top: 26px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logomail {
+    width: 57px;
+    height: 57px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nomemail {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;   
+}
+
+.nomemail1 {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold; 
+}
+
+.menu2 {
+    border: 1px solid darkgreen;
+    margin-top: -230px;
+    width: 250px;
+    height: 230px;
+    margin-left: 430px;
+}
+
+.menuu2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logoinsta {
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nomeinsta {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu3 {
+    border: 1px solid darkgreen;
+    margin-top: -230px;
+    width: 250px;
+    height: 230px;
+    margin-left: 680px;
+}
+
+.menuu3 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logolinkedin {
+    width: 70px;
+    height: 70px;
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nomelink {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu4 {
+    border: 1px solid darkgreen;
+    margin-top: -230px;
+    width: 250px;
+    height: 230px;
+    margin-left: 930px;
+}
+
+.menuu4 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.logoface {
+    width: 60px;
+    height: 65px;
+    margin-top: 25.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.nomeface {
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.logoinsta {
+    width: 70px;
+    height: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
