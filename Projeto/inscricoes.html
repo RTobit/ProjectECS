@@ -5,16 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inscrições - Escola de Computação Solidária</title>
-    <link rel="stylesheet" href="stylesheet1.css"/>
+    <link rel="stylesheet" href="formulario.css"/>
 </head>
 <body class="bg" id="pagina-um">
     
     <nav id="menuh">
         <div class="nav">
             <ul>
-                <li><a href="#" >Contato</a></li>
+                <li><a href="Contato.html" >Contato</a></li>
                 <li><a href="#" >Blog </a></li>
-                <li><a href="#" >Cursos</a></li>
+                <li><a href="Cursos.html" >Cursos</a></li>
                 <li><a class="ho" href="inscricoes.html" >Inscrições</a></li>
                 <li><a href="index.html" >Home</a></li>
             </ul>
@@ -24,35 +24,98 @@
         <div>
             <h2 class="txt1">Para se inscrever na Escola de Computação Solidária</h2> 
             <br>
-            <h1 class="txt2">Converse com o nosso time pelos seguintes canais de comunicação!</h1>
+            <h1 class="txt2">Preencha o formulário abaixo com as informações necessárias:</h1>
         </div>
-            
-        <div class="menu1">
-            <img src="">
-            <a href="mailto:marketing.ecsunipe@gmail.com"><img class="logomail" src="Logomail.png">
-            <a href="mailto:marketing.ecsunipe@gmail.com" style="text-decoration: none;"><p class="menuu1">Email</p></a>
-            <a href="mailto:marketing.ecsunipe@gmail.com" style="text-decoration: none;"><p class="nomemail">marketing.ecsunipe</p></a>
-            <a href="mailto:marketing.ecsunipe@gmail.com" style="text-decoration: none;"><p class="nomemail1">@gmail.com</p></a>
-        </div>
-
-        <div class="menu2">
-            <a href="https://www.instagram.com/ecsunipe/"><img class="logoinsta" src="Logoinsta.png">
-            <a href="https://www.instagram.com/ecsunipe/" style="text-decoration: none;"><p class="menuu2">Instagram</p></a>
-            <a href="https://www.instagram.com/ecsunipe/" style="text-decoration: none;"><p class="nomeinsta">ecsunipe</p></a>
-        </div>
-
-        <div class="menu3">
-            <a href="https://www.linkedin.com/company/ecsunipe/"><img class="logolinkedin" src="Logolinkedin.png"></a>
-            <a href="https://www.linkedin.com/company/ecsunipe/" style="text-decoration: none;"><p class="menuu3">Linkedin</p></a>
-            <a href="https://www.linkedin.com/company/ecsunipe/" style="text-decoration: none;"><p class="nomelink">Escola de Computação Solidária</p></a>
-        </div>
-
-        <div class="menu4">
-            <a href="https://www.facebook.com/computacaosolidaria"><img class="logoface" src="Logoface.png"></a>
-            <a href="https://www.facebook.com/computacaosolidaria" style="text-decoration: none;"><p class="menuu4">Facebook</p></a>
-            <a href="https://www.facebook.com/computacaosolidaria" style="text-decoration: none;"><p class="nomeface">Escola de Computação Solidária</p></a>
-        </div>
-        
-        
+         
+		
+		<form>	
+			<fieldset class="grupo1">
+				
+				<div class="title">
+					<label for="titulo1">Inscreva-se como ALUNO.</label>
+				</div>
+				
+				<div class="campo1">
+					<label for="nome1">Nome Completo:</label>
+					<input type="text" name="nome1" id="nome1" required>
+				</div>
+		
+				<div class="campo1">
+					<label for="email1">Email:</label>
+					<input type="email" name="email1" id="email1" required>
+				</div>
+			
+				<div class="campo1">
+					<label for="telefone1">Número para contato:</label>
+					<input type="tel" name="telefone1" id="telefone1">
+				</div>
+			
+				<div class="campo1">
+					<label for="endereco">Endereço:</label>
+					<input type="text" name="endereco" id="endereco" required>
+				</div>
+		
+				<div class="campo1">
+					<label for="dataNascimento1">Data de nascimento:</label>
+					<input type="date" name="dataNascimento1" id="dataNascimento1">
+				</div>
+				
+				<div class="campo1">
+					<label for="curso">Curso de interesse:</label>
+					<select  name="curso" id="curso">	
+						<option value ="informatica">Informática básica</option>
+						<option value="pensamento">Pensamento computacional</option>
+					</select>
+				</div>
+					
+				<button class="botao1" type="submit">Enviar</button>
+			</fieldset>
+        </form>
+		
+		<form>
+			<fieldset class="grupo2">
+				
+				<div class="title">
+					<label for="titulo2">Inscreva-se como VOLUNTÁRIO.</label>
+				</div>
+				
+				<div class="campo2">
+					<label for="nome2">Nome Completo:</label>
+					<input type="text" name="nome2" id="nome2" required>
+				</div>
+		
+				<div class="campo2">
+					<label for="email2">Email:</label>
+					<input type="email" name="email2" id="email2" required>
+				</div>
+			
+				<div class="campo2">
+					<label for="telefone2">Número para contato:</label>
+					<input type="tel" name="telefone2" id="telefone2">
+				</div>
+			
+				<div class="campo2">
+					<label for="endereco2">Endereço:</label>
+					<input type="text" name="endereco2" id="endereco2" required>
+				</div>
+		
+				<div class="campo2">
+					<label for="dataNascimento2">Data de nascimento:</label>
+					<input type="date" name="dataNascimento2" id="dataNascimento2">
+				</div>
+				
+				<div class="campo2">
+					<label for="cursoSuperior">Curso superior:</label>
+					<input type="text" name="cursoSuperior" id="cursoSuperior">
+				</div>
+				
+				<div class="campo2">
+					<label for="periodo">Periodo letivo:</label>
+					<input type="text" name="periodo" id="periodo">
+				</div>
+			
+				<button class="botao2" type="submit">Enviar</button>
+			</fieldset>
+        </form>
 </body>
 </html>
