@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bg {
+    background-image: url(Logo.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+}
+
+#menuh ul{
+    margin: 0 auto;    
+    color: #fff;
+    list-style: none;
+    height: 70px;    
+    background-color: #fff;
+    font-size: 20px;
+    margin-top: -10px;    
+    margin-left: -7px;   
+}
+
+#menuh ul li  {
+    display: inline;
+    margin-left: 180px;
+    transition: all 0.4s ease-in-out;
+}
+
+#menuh ul li a {
+    color: rgb(75, 72, 72);
+    text-decoration: none;
+    padding: 13px;
+    display: inline-block;
+    float: right;
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+#menuh ul li a:hover {
+    color: green;
+    transition: background-color .5s;
+}
+
+.nav ul li a.active {
+    border-top: 2px;
+}
+
+.txt1 {
+    text-align: center;
+    margin-top: 240px;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.txt2 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.fotomenu {
+    position: absolute;
+    top: 7px;
+    width: 80px;
+    height: 50px;
+    margin-left: 25px; 
+}
+
+.ho  {
+    border-top: 3px solid green;
+}
+
+.txt3 {
+    text-align: right;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
