@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.bg {
+    background-image: url(Logo.jpeg);
+    background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
+	
+	
+}
+
+#menuh ul{
+    margin: 0 auto;    
+    color: #fff;
+    list-style: none;
+    height: 70px;    
+    background-color: #fff;
+    font-size: 20px;
+    margin-top: -10px;    
+    margin-left: -7px;   
+}
+
+#menuh ul li  {
+    display: inline;
+    margin-left: 180px;
+    transition: all 0.4s ease-in-out;
+}
+
+#menuh ul li a {
+    color: rgb(75, 72, 72);
+    text-decoration: none;
+    padding: 13px;
+    display: inline-block;
+    float: right;
+    margin-top: 11px;
+    font-size: 20px;
+}
+
+#menuh ul li a:hover {
+    color: green;
+    transition: background-color .5s;
+}
+
+.nav ul li a.active {
+    border-top: 2px;
+}
+
+.txt1 {
+    text-align: center;
+    margin-top: 150px;
+    font-size: 42px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+
+.txt2 {
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 10px;
+	margin-bottom: 50px;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+}
+
+.fotomenu {
+    position: absolute;
+    top: 7px;
+    width: 80px;
+    height: 50px;
+    margin-left: 25px; 
+	
+}
+
+.ho  {
+    border-top: 3px solid green;
+}
+
+fieldset {
+	float: left;
+	margin-right: 1em;
+	justify-content: center;
+	width:480px;
+	height:500px;
+	background-color: rgba(0,35,0, 0.4);
+}
+
+.campo1 label, .title{
+	margin-bottom: 0.2em;
+	display: block;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+	justify-content: center;
+	margin-left: 60px;
+	 
+}
+
+.campo1 input[type="text"], .campo1 input[type="tel"], .campo1 input[type="email"], .campo1 input[type="date"], select {
+	padding: 0.2em;
+	border: 1px;
+	margin-left: 60px;
+	width: 350px;
+}
+
+.botao1 {
+	font-size: 1.1em;
+	border: 0;
+	box-shadow: 1px, 1px, 1px, rgba(0,0,0,02);
+	margin-left: 60px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+}
+
+.campo2 label{
+	margin-bottom: 0.2em;
+	display: block;
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 28px;
+	color: #fff;
+	font-weight: bold;
+	justify-content: center;
+	margin-left: 60px;
+	 
+}
+
+.campo2 input[type="text"], .campo2 input[type="tel"], .campo2 input[type="email"], .campo2 input[type="date"] {
+	padding: 0.2em;
+	border: 1px;
+	margin-left: 60px;
+	display: block;
+	width: 350px;
+}
+
+.botao2 {
+	font-size: 1.1em;
+	border: 0;
+	box-shadow: 1px, 1px, 1px, rgba(0,0,0,02);
+	margin-left: 60px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+	text-align: center;
+	display: inline-block;
+}
+
+.grupo1{
+	margin-left: 450px;
+}
+
+.grupo2{
+	float: right;
+	margin-right: 450px;
+}
