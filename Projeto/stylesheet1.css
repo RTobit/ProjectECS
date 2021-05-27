@@ -1,18 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
-}
-
-.bg {
-    background-image: url(Logo.jpeg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
+    font-family: 'Arial, Helvetica, sans-serif'; 
 }
 
 #menuh ul{
@@ -21,9 +13,10 @@
     list-style: none;
     height: 70px;    
     background-color: #fff;
-    font-size: 20px;
+    font-size: 15px;
     margin-top: -10px;    
-    margin-left: -7px;        
+    margin-left: -7px;      
+
 }
 
 #menuh ul li  {
@@ -38,8 +31,8 @@
     padding: 13px;
     display: inline-block;
     float: right;
-    margin-top: 10px;
-    font-size: 20px;
+    margin-top: 11px;
+    font-size: 22px;
 }
 
 #menuh ul li a:hover {
@@ -53,23 +46,21 @@
 
 .txt1 {
     text-align: center;
-    margin-top: 50px;
-    font-size: 38px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-top: -500px;
+    font-size: 37px;
+    font-family: 'Arial, Helvetica, sans-serif';     
     font-weight: bold;
-    color: #fff;
+    color: #ffffff;
 }
 
 .txt2 {
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 10px;
+    margin-top: 40px;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 27px;
+    font-family: 'Arial, Helvetica, sans-serif';    
+    font-size: 30px;
 }
 
 .fotomenu {
@@ -90,6 +81,7 @@
     width: 250px;
     height: 230px;
     margin-left: 180px;
+
 }
 
 .menuu1 {
@@ -98,7 +90,8 @@
     margin-top: 26px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
+    box-sizing: border-box;
 }
 
 .logomail {
@@ -112,7 +105,7 @@
 
 .nomemail {
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -124,7 +117,7 @@
 
 .nomemail1 {
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -147,7 +140,7 @@
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
 }
 
 .logoinsta {
@@ -161,7 +154,7 @@
 
 .nomeinsta {
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -185,7 +178,7 @@
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
 }
 
 .logolinkedin {
@@ -199,7 +192,7 @@
 
 .nomelink {
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -223,7 +216,7 @@
     margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
 }
 
 .logoface {
@@ -237,7 +230,7 @@
 
 .nomeface {
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Arial, Helvetica, sans-serif'; 
     font-size: 17px;
     margin-left: auto;
     margin-right: auto;
@@ -253,4 +246,49 @@
     margin-left: auto;
     margin-right: auto;
     display: block;
+}
+
+.fundo img {
+    Width: 100%;
+    height: 570px;
+}
+
+.fundo1 {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    
+}
+
+.fundo2 {
+    position: absolute;
+    margin-top: 1200px;
+    left: 80px;   
+    
+}
+
+footer{
+    padding: 80px 4%;    
+    background-color: #688293;
+}
+
+footer .container{
+    max-width: 1100px;
+}
+
+footer .footer-block{
+    float: left;
+    width: 33.3%;
+}
+
+.footer-block h2{
+    color: white;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer-block p{
+    margin-top: 8px;
+    color: white;
+    font-size: 14px;
 }
