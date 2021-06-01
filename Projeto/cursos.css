@@ -1,18 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
 
 *{
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Arial, Helvetica, sans-serif'; 
 }
 
-.bg {
-    background-image: url(Logo.jpeg);
-    background-attachment: fixed;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-color: black;
+body {
+    background-color: rgb(240,350,240);
 }
 
 #menuh ul{
@@ -39,7 +35,7 @@
     display: inline-block;
     float: right;
     margin-top: 11px;
-    font-size: 20px;
+    font-size: 22px;
 }
 
 #menuh ul li a:hover {
@@ -53,25 +49,45 @@
 
 .txt1 {
     text-align: center;
-    margin-top: 240px;
-    font-size: 42px;
-    font-family: 'Courier New', Courier, monospace;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-top: -400px;
+    margin-right: 0px;
+    font-family: 'Arial, Helvetica, sans-serif';  
     font-weight: bold;
     color: #fff;
+    font-size: 58px;
 }
 
 .txt2 {
     text-align: center;
-    margin-left: 50px;
-    margin-right: 50px;
     margin-top: 10px;
     color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-size: 30px;
+    
 }
 
+.txt3 {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    font-family: 'Arial, Helvetica, sans-serif'; 
+    margin-left: 320px;
+    margin-top: 270px;
+    font-size: 30px;
+    
+}
+
+.txt4 {
+    text-align: justify;
+    align-items: center;
+    align-content: center;
+    color: #000;
+    font-family: 'Arial, Helvetica, sans-serif'; 
+    margin-left: 320px;
+    margin-top: 0px;
+    font-size: 30px;
+    
+}
 .fotomenu {
     position: absolute;
     top: 7px;
@@ -84,12 +100,104 @@
     border-top: 3px solid green;
 }
 
-.txt3 {
-    text-align: right;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
-    color: #fff;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 28px;
+.fundo img {
+    Width: 100%;
+    height: 570px;
+}
+
+.fundo1 {
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    
+}
+
+.fundo2 {
+    position: absolute;
+    margin-top: 1200px;
+    left: 80px;
+    
+    
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: -160px;
+       
+}
+
+.content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+    margin-top: -160px;
+    margin-left: 15px;
+       
+}
+
+
+.card {
+    background: rgb(145, 145, 145);    
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-right: 100px;
+    padding: 10px;
+    
+    
+}
+
+.actions {
+    margin-top: 25px;   
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px; 
+}
+
+.actions1 {
+    margin-top: 25px;   
+    margin-left: 580px;
+    margin-right: 600px;
+    padding: 10px; 
+}
+
+.actions2 {
+    margin-top: 25px;   
+    margin-left: 600px;
+    margin-right: 600px;
+    padding: 10px;  
+}
+
+footer{
+    padding: 80px 4%;
+    margin-top: -70px;
+    background-color: #fff;
+}
+
+footer .container{
+    max-width: 1100px;
+}
+
+footer .footer-block{
+    float: left;
+    width: 33.3%;
+}
+
+.footer-block h2{
+    color: black;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.footer-block p{
+    margin-top: 8px;
+    color: black;
+    font-size: 14px;
 }
