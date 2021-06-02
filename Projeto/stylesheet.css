@@ -1,14 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
 }
 
 body {
-    background-color: rgb(123, 142, 250);
+    
+    background-color: rgb(208, 255, 200) ;
 }
 
 #menuh ul{
@@ -17,7 +18,7 @@ body {
     list-style: none;
     height: 70px;    
     background-color: #fff;
-    font-size: 20px;
+    font-size: 19px;
     margin-top: -10px;    
     margin-left: -7px;   
 }
@@ -34,8 +35,7 @@ body {
     padding: 13px;
     display: inline-block;
     float: right;
-    margin-top: 11px;
-    font-size: 22px;
+    margin-top: 11px;    
 }
 
 #menuh ul li a:hover {
@@ -51,7 +51,7 @@ body {
     text-align: center;
     margin-top: -400px;
     margin-right: 0px;
-    font-family: 'Arial, Helvetica, sans-serif';  
+    font-family: 'DM Sans', sans-serif;  
     font-weight: bold;
     color: #fff;
     font-size: 58px;
@@ -61,7 +61,7 @@ body {
     text-align: center;
     margin-top: 10px;
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     font-size: 30px;
     
 }
@@ -71,7 +71,7 @@ body {
     justify-content: center;
     align-items: center;
     align-content: center;
-    margin-top: 270px;
+    margin-top: 250px;
     font-size: 30px;
 }
 
@@ -108,28 +108,24 @@ body {
 }
 
 .content {
-    display: flex;
-    justify-content: center;
+    margin-left: 340px;
     align-items: center;
     align-content: center;
-    width: 100%;
-    height: 100vh;
-    margin-top: -160px;
+    width: 50%;
+    height: 100%;
+    margin-top: 50px;
        
 }
 
 .content1 {
-    display: flex;
-    justify-content: center;
+    margin-left: 340px;
     align-items: center;
     align-content: center;
-    width: 100%;
-    height: 100vh;
-    margin-top: -160px;
-    margin-left: 15px;
+    width: 50%;
+    height: 100%;
+    margin-top: 65px;
        
 }
-
 
 .title {
     font-size: 35px;
@@ -139,16 +135,8 @@ body {
     font-size: 35px;
 }
 
-.title2 {
-    font-size: 35px;
-}
-
-.title3 {
-    font-size: 35px;
-}
-
 .card {
-    background: rgb(145, 145, 145);    
+    background: rgb(158, 255, 190);    
     border-radius: 20px;
     margin-left: 80px;
     margin-right: 100px;
@@ -158,7 +146,7 @@ body {
 }
 
 .card1 {
-    background: rgb(145, 145, 145);
+    background: rgb(158, 255, 190);    
     border-radius: 20px;
     margin-left: 80px;
     margin-right: 100px;    
@@ -166,23 +154,7 @@ body {
     
 }
 
-.card2 {
-    background: rgb(145, 145, 145);
-    border-radius: 20px;
-    margin-left: 50px;
-    margin-right: 100px;    
-    margin-top: -390px;
-    padding: 10px;
-}
 
-.card3 {
-    background: rgb(145, 145, 145);
-    border-radius: 20px;
-    margin-left: 80px;
-    margin-right: 100px;    
-    margin-top: -420px;
-    padding: 10px;
-}
 
 .BottomText {
   margin-top: -5px;
@@ -191,17 +163,6 @@ body {
 
 .BottomText1 {
     margin-top: -5px;
-    font-size: 22px;
-}
-
-.BottomText2 {
-    margin-top: -5px;
-    font-size: 22px;
-}
-
-.BottomText3 {
-    margin-top: -5px;
-    margin-right: 40px;
     font-size: 22px;
 }
 
@@ -215,29 +176,11 @@ body {
     padding-top: 15px;
 }
 
-.topCard2 {
-    padding: 20px;
-    padding-top: 15px;
-}
-
-.topCard3 {
-    padding: 20px;
-    padding-top: 15px;
-}
-
 .bottomcard {
     padding: 20px;
 }
 
 .bottomcard1 {
-    padding: 20px;
-}
-
-.bottomcard2 {
-    padding: 20px;
-}
-
-.bottomcard3 {
     padding: 20px;
 }
 
@@ -251,24 +194,14 @@ body {
     padding: 10px;  
 }
 
-.actions2 {
-    margin-top: 25px;    
-    padding: 10px;
-}
-
-.actions3 {
-    margin-top: 25px;    
-    padding: 10px;
-}
-
 footer{
-    padding: 80px 4%;
-    margin-top: -70px;
-    background-color: #688293;
+    padding: 60px 4%;
+    margin-top: 70px;
+    background-color: #ffffff;     
 }
 
 footer .container{
-    max-width: 1100px;
+    max-width: 1100px;    
 }
 
 footer .footer-block{
@@ -277,14 +210,14 @@ footer .footer-block{
 }
 
 .footer-block h2{
-    color: white;
+    color: rgb(75, 72, 72);
     font-weight: normal;
     font-size: 18px;
+    margin-top: -35px;
 }
 
-.footer-block p{
-    margin-top: 8px;
-    color: white;
+.footer-block p{    
+    color: rgb(75, 72, 72);
     font-size: 14px;
 }
 
