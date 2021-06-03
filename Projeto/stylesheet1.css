@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
 }
 
 #menuh ul{
@@ -13,10 +13,9 @@
     list-style: none;
     height: 70px;    
     background-color: #fff;
-    font-size: 15px;
+    font-size: 19px;
     margin-top: -10px;    
-    margin-left: -7px;      
-
+    margin-left: -7px;   
 }
 
 #menuh ul li  {
@@ -31,8 +30,7 @@
     padding: 13px;
     display: inline-block;
     float: right;
-    margin-top: 11px;
-    font-size: 22px;
+    margin-top: 11px;    
 }
 
 #menuh ul li a:hover {
@@ -47,8 +45,8 @@
 .txt1 {
     text-align: center;
     margin-top: -500px;
-    font-size: 37px;
-    font-family: 'Arial, Helvetica, sans-serif';     
+    font-size: 39px;
+    font-family: 'DM Sans', sans-serif;    
     font-weight: bold;
     color: #ffffff;
 }
@@ -57,9 +55,9 @@
     text-align: center;
     margin-left: 100px;
     margin-right: 100px;
-    margin-top: 40px;
+    margin-top: 30px;
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif';    
+    font-family: 'DM Sans', sans-serif;    
     font-size: 30px;
 }
 
@@ -76,77 +74,53 @@
 }
 
 .menu1 {
-    border: 1px solid darkgreen;
-    margin-top: 80px;
-    width: 250px;
-    height: 230px;
-    margin-left: 180px;
-
+   margin-left: 140px;
+   margin-top: 100px;
+   text-align: left;
 }
 
 .menuu1 {
-    color: #fff;
-    text-align: center;
-    margin-top: 26px;
+    color: #fff;   
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Arial, Helvetica, sans-serif'; 
-    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif; 
+    margin-left: 55px; 
 }
 
 .logomail {
     width: 57px;
     height: 57px;
     margin-top: 10px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    margin-left: 60px;
 }
 
 .nomemail {
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     font-size: 17px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    display: block;
-    text-align: center;
-    font-weight: bold;   
+    font-weight: bold; 
+    margin-left: -25px;  
 }
 
-.nomemail1 {
-    color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
-    font-size: 17px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-    text-align: center;
-    font-weight: bold; 
-}
 
 .menu2 {
-    border: 1px solid darkgreen;
-    margin-top: -230px;
-    width: 250px;
-    height: 230px;
-    margin-left: 430px;
+    margin-left: -330px;
+    margin-top: -159px;
+    text-align: left;
 }
 
 .menuu2 {
     color: #fff;
-    text-align: center;
-    margin-top: 20px;
+    text-align: center;    
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
 }
 
 .logoinsta {
     width: 70px;
     height: 70px;
-    margin-top: 25px;
+    margin-top: 27px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -154,37 +128,30 @@
 
 .nomeinsta {
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
-    font-size: 17px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    display: block;
+    font-family: 'DM Sans', sans-serif; 
+    font-size: 17px;    
     text-align: center;
     font-weight: bold;
 }
 
 .menu3 {
-    border: 1px solid darkgreen;
-    margin-top: -230px;
-    width: 250px;
-    height: 230px;
-    margin-left: 680px;
+    margin-left: 225px;
+    margin-top: -179px;
+    text-align: left;
 }
 
 .menuu3 {
     color: #fff;
-    text-align: center;
-    margin-top: 20px;
+    text-align: center;   
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
 }
 
 .logolinkedin {
     width: 70px;
     height: 70px;
-    margin-top: 25px;
+    margin-top: 48px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -192,37 +159,32 @@
 
 .nomelink {
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     font-size: 17px;
     margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
-    display: block;
+    margin-right: auto;    
     text-align: center;
     font-weight: bold;
 }
 
 .menu4 {
-    border: 1px solid darkgreen;
-    margin-top: -230px;
-    width: 250px;
-    height: 230px;
-    margin-left: 930px;
+   margin-left: 850px;
+   margin-top: -159px;
 }
 
 .menuu4 {
     color: #fff;
     text-align: center;
-    margin-top: 20px;
     font-size: 30px;
     font-weight: bold;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
+    margin-top: 4px;
 }
 
 .logoface {
     width: 60px;
     height: 65px;
-    margin-top: 25.5px;
+    margin-top: 29px;
     margin-left: auto;
     margin-right: auto;
     display: block;
@@ -230,22 +192,11 @@
 
 .nomeface {
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     font-size: 17px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 5px;
     display: block;
     text-align: center;
     font-weight: bold;
-}
-
-.logoinsta {
-    width: 70px;
-    height: 70px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
 }
 
 .fundo img {
@@ -257,19 +208,18 @@
     position: absolute;
     top: 100px;
     left: 80px;
-    
 }
 
 .fundo2 {
     position: absolute;
     margin-top: 1200px;
-    left: 80px;   
-    
+    left: 80px;       
 }
 
 footer{
-    padding: 80px 4%;    
-    background-color: #688293;
+    padding: 85px 4%;
+    margin-top: 73px;
+    background-color: #ffffff;    
 }
 
 footer .container{
@@ -282,13 +232,14 @@ footer .footer-block{
 }
 
 .footer-block h2{
-    color: white;
+    color: rgb(75, 72, 72);
     font-weight: normal;
     font-size: 18px;
+    margin-top: -10px;
+    
 }
 
-.footer-block p{
-    margin-top: 8px;
-    color: white;
+.footer-block p{    
+    color: rgb(75, 72, 72);
     font-size: 14px;
 }
