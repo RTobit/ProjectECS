@@ -1,14 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
 }
 
 body {
-    background-color: rgb(240,350,240);
+    background-color: rgb(208, 255, 200);
 }
 
 #menuh ul{
@@ -35,7 +35,7 @@ body {
     display: inline-block;
     float: right;
     margin-top: 11px;
-    font-size: 22px;
+    font-size: 19px;
 }
 
 #menuh ul li a:hover {
@@ -51,7 +51,7 @@ body {
     text-align: center;
     margin-top: -400px;
     margin-right: 0px;
-    font-family: 'Arial, Helvetica, sans-serif';  
+    font-family: 'DM Sans', sans-serif;  
     font-weight: bold;
     color: #fff;
     font-size: 58px;
@@ -61,7 +61,7 @@ body {
     text-align: center;
     margin-top: 10px;
     color: #fff;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     font-size: 30px;
     
 }
@@ -70,7 +70,6 @@ body {
     text-align: center;
     align-items: center;
     align-content: center;
-    font-family: 'Arial, Helvetica, sans-serif'; 
     margin-left: 320px;
     margin-top: 270px;
     font-size: 30px;
@@ -82,7 +81,7 @@ body {
     align-items: center;
     align-content: center;
     color: #000;
-    font-family: 'Arial, Helvetica, sans-serif'; 
+    font-family: 'DM Sans', sans-serif; 
     margin-left: 320px;
     margin-top: 0px;
     font-size: 30px;
@@ -144,16 +143,6 @@ body {
 }
 
 
-.card {
-    background: rgb(145, 145, 145);    
-    border-radius: 20px;
-    margin-left: 80px;
-    margin-right: 100px;
-    padding: 10px;
-    
-    
-}
-
 .actions {
     margin-top: 25px;   
     margin-left: 600px;
@@ -163,14 +152,14 @@ body {
 
 .actions1 {
     margin-top: 25px;   
-    margin-left: 580px;
+    margin-left: 585px;
     margin-right: 600px;
     padding: 10px; 
 }
 
 .actions2 {
     margin-top: 25px;   
-    margin-left: 600px;
+    margin-left: 620px;
     margin-right: 600px;
     padding: 10px;  
 }
@@ -191,13 +180,13 @@ footer .footer-block{
 }
 
 .footer-block h2{
-    color: black;
+    color: rgb(75, 72, 72);
     font-weight: normal;
     font-size: 18px;
+    margin-top: -35px;
 }
 
 .footer-block p{
-    margin-top: 8px;
-    color: black;
+    color: rgb(75, 72, 72);
     font-size: 14px;
 }
